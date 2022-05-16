@@ -1,0 +1,30 @@
+:root{
+    --primary:#DAF7A6;
+    --secondary:#FFC300;
+    --third:#FF5733;
+    --forth:#C70039;
+    --fifth:#900C3F;
+    --sixth:#581845;
+}
+
+button{
+    font-family: "Cuprum", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 3px 18px;
+    margin: 0 5px ;
+}
+button{
+    background-color: var(--sixth);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease 0.2s;
+    
+}
+button a{
+    color: var(--primary);
+    text-decoration: none;
+}

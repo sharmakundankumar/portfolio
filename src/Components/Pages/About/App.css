@@ -1,0 +1,15 @@
+.About{
+    margin: 0 20%;
+    padding: 0 10%;
+    height:32rem;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.About img{
+    height: 230px;
+}

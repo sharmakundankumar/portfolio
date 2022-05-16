@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@1,500&family=Poppins:wght@400;600&family=Slabo+27px&family=Ubuntu:wght@700&display=swap');
+:root{
+    --primary:#DAF7A6;
+    --secondary:#FFC300;
+    --third:#FF5733;
+    --forth:#C70039;
+    --fifth:#900C3F;
+    --sixth:#581845;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: #24252A; */
+}
+
+nav span{
+    font-family: "Cuprum", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--sixth);
+    cursor: pointer;
+}
+
+nav span img {
+    height: 30px;
+  }
+
+nav{
+    box-sizing: border-box;
+    background-color: var(--secondary);
+    border: 60rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20%;
+    padding: 15px 0;
+}
+
+nav .nav a{
+    font-family: "Cuprum", sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px 20px;
+    color: var(--fifth);
+}
+
+.nav-left a{
+    transition: all 0.5s ease 0.2s;   
+}
+
+.nav-left a:hover{
+    color: var(--third);
+    background-color: var(--third);
+    color: var(--primary);
+}
+
+button{
+    background-color:var(--third) ;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease 0.2s;
+    
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0,8);
+}

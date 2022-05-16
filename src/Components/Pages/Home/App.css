@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@1,500&family=Poppins:wght@400;600&family=Slabo+27px&family=Ubuntu:wght@700&display=swap');
+
+:root{
+    --primary:#DAF7A6;
+    --secondary:#FFC300;
+    --third:#FF5733;
+    --forth:#C70039;
+    --fifth:#900C3F;
+    --sixth:#581845;
+}
+
+*{
+    font-family: 'Cuprum' sans-serif;
+}
+
+.container{
+    display: flex;
+    box-sizing: border-box;
+    background-color: var(--secondary);
+   margin: 0 20%;
+   height: 30rem; 
+   justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.first-container{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    align-items:center;
+    justify-items: center;
+    justify-content: center;
+
+}
+
+.first-container h1{
+    font-size: 90px;
+    color: var(--primary);
+}
+
+.first-container p{
+    font-size: 20px;
+}
+
+.left-container img{
+    height: 483px;
+}
